@@ -1,0 +1,53 @@
+﻿@* nhận diện các file trong thư mục Models*@
+@using project.Models
+@using X.PagedList.Mvc.Core
+@*Khai báo kiểu dữ liệu của Model (có cũng được không có cũng được)*@
+@model X.PagedList.IPagedList<ItemUser>
+@*Đối tượng để gọi hàm hiện thị phân trang*@
+
+@using X.PagedList.Mvc
+@{
+    //import file layout.cshtml vào đây
+    Layout = "~/Areas/Admin/Views/Shared/Layout.cshtml";
+}
+
+<div class="col-md-12">
+    <div style="margin-bottom:5px;">
+        <a href="/Admin/Users/Create" class="btn btn-primary">Create</a>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">List User</div>
+        <div class="panel-body">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th>Fullname</th>
+                    <th>Email</th>
+                    <th style="width:120px;"></th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
+                        <td style="text-align:center;">
+                            <a href="/Admin/Users/Update/@item.Id">Update</a>&nbsp;
+                            <a href="/Admin/Users/Delete/@item.Id" onclick="return window.confirm('Are you sure?');">Delete</a>
+                        </td>
+                    </tr>
+
+                }
+            </table>
+            <style type="text/css">
+                .pagination {
+                    padding: 0px;
+                    margin: 0px;
+                }
+            </style>
+            @*phan trang bang tay*@
+            @*So trang : @Model.PageCount /
+            Trang Hien tai : @Model.PageNumber*@
+            @*Phan trang bang ham PagedListPager*@
+            @Html.PagedListPager(Model,page => Url.Action("Index",new {page} ))
+        </div>
+    </div>
+</div>

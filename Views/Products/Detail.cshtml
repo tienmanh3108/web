@@ -1,0 +1,196 @@
+﻿@{
+	//import file Layout.cshtml vao day
+	Layout = "~/Views/Shared/Layout1.cshtml";
+}
+@using project.Models
+@functions {
+	public MyDbContext db = new MyDbContext();
+	public string GetCategoryName(int _ProductId)
+	{
+		var record = (from item_category in db.Categories join item_category_product in db.CategoriesProducts on item_category.Id equals item_category_product.CategoryId join item_product in db.Products on item_category_product.ProductId equals item_product.Id where item_product.Id == _ProductId select item_category).FirstOrDefault();
+		if (record != null)
+		{
+			return record.Name;
+		}
+		return "";
+	}
+	//lay so sao
+	public int GetStar(int _ProductId, int _Star)
+	{
+		var total = db.Rating.Where(item => item.ProductId == _ProductId && item.Star == _Star).Count();
+		return total;
+	}
+	//lay 8 san pham lien quan (cac san pham thuoc cung danh muc)
+	public List<ItemProduct> RalativeProducts(int _ProductId)
+	{
+		//lay cac danh muc ma san pham nay thuoc ve (mot san pham co the thuoc nhieu danh muc)
+		var list_categories = (from item_category in db.Categories join item_category_product in db.CategoriesProducts on item_category.Id equals item_category_product.CategoryId join item_product in db.Products on item_category_product.ProductId equals item_product.Id where item_product.Id == _ProductId select item_category).ToList();
+		//duyet list_categories, lay cac san pham
+		List<ItemProduct> list_products = new List<ItemProduct>();
+		foreach (var item in list_categories)
+		{
+			//lay san pham thuoc danh muc
+			var list_record = (from item_category in db.Categories join item_category_product in db.CategoriesProducts on item_category.Id equals item_category_product.CategoryId join item_product in db.Products on item_category_product.ProductId equals item_product.Id where item_category.Id == item.Id select item_product).ToList();
+			//duyet cac san pham, add san pham vao bien list_products
+			foreach (var item_product in list_record)
+			{
+				list_products.Add(item_product);
+			}
+		}
+		return list_products;
+	}
+}
+<div class="container">
+	<div class="row" style="margin-top:15px;">
+
+		<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 main-content-area">
+			<div class="wrap-product-detail">
+				<div class="detail-media">
+					<div class="product-gallery" style="width:470px;">
+						&nbsp;
+						<img src="~/Upload/Products/@Model.Photo" alt="product thumbnail" />
+					</div>
+				</div>
+				<div class="detail-info">
+					<div class="stock-info in-stock">
+						<p class="availability">Category: <b>@GetCategoryName(Convert.ToInt32(Model.Id))</b></p>
+						<p class="availability">Discount: <b>@Model.Discount %</b></p>
+					</div>
+					<h2 class="product-name">@Model.Name</h2>
+					<div class="wrap-price"><span class="product-price">$@Model.Price</span></div>
+					<div class="wrap-butons">
+						<div class="col-lg-6"><a href="/Cart/Buy/@Model.Id" class="btn add-to-cart">Add to Cart</a></div>
+						<div class="col-lg-6"><a href="Wishlist/Add/@Model.Id" class="btn add-to-cart"><i class="fa fa-heart"></i> Wishlist</a></div>
+					</div>
+					<div style="clear: both;"></div>
+					<div class="product-rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<a href="#" class="count-review">(@GetStar(Convert.ToInt32(Model.Id),1) review)</a>
+					</div>
+					<div style="clear: both;"></div>
+					<div class="product-rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<a href="#" class="count-review">(@GetStar(Convert.ToInt32(Model.Id),2) review)</a>
+					</div>
+					<div style="clear: both;"></div>
+					<div class="product-rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<a href="#" class="count-review">(@GetStar(Convert.ToInt32(Model.Id),3) review)</a>
+					</div>
+					<div style="clear: both;"></div>
+					<div class="product-rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<a href="#" class="count-review">(@GetStar(Convert.ToInt32(Model.Id),4) review)</a>
+					</div>
+					<div style="clear: both;"></div>
+					<div class="product-rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<a href="#" class="count-review">(@GetStar(Convert.ToInt32(Model.Id),5) review)</a>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+				<div class="advance-info">
+					<div class="tab-control normal">
+						<a href="#description" class="tab-control-item active">description</a>
+					</div>
+					<div class="tab-contents">
+						<div class="tab-content-item active" id="description">
+							@Html.Raw(Model.Description)
+							@Html.Raw(Model.Content)
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--end main products area-->
+
+		<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 sitebar">
+			<div class="widget widget-our-services ">
+				<div class="widget-content">
+					<ul class="our-services">
+
+						<li class="service">
+							<a class="link-to-service" href="#">
+								<i class="fa fa-truck" aria-hidden="true"></i>
+								<div class="right-content">
+									<b class="title">Free Shipping</b>
+									<span class="subtitle">On Oder Over $99</span>
+									<p class="desc">Lorem Ipsum is simply dummy text of the printing...</p>
+								</div>
+							</a>
+						</li>
+
+						<li class="service">
+							<a class="link-to-service" href="#">
+								<i class="fa fa-gift" aria-hidden="true"></i>
+								<div class="right-content">
+									<b class="title">Special Offer</b>
+									<span class="subtitle">Get a gift!</span>
+									<p class="desc">Lorem Ipsum is simply dummy text of the printing...</p>
+								</div>
+							</a>
+						</li>
+
+						<li class="service">
+							<a class="link-to-service" href="#">
+								<i class="fa fa-reply" aria-hidden="true"></i>
+								<div class="right-content">
+									<b class="title">Order Return</b>
+									<span class="subtitle">Return within 7 days</span>
+									<p class="desc">Lorem Ipsum is simply dummy text of the printing...</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div><!-- Categories widget-->
+			@Html.Partial("~/Views/Shared/PopularProducts.cshtml")
+
+		</div><!--end sitebar-->
+
+		<div class="single-advance-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="wrap-show-advance-info-box style-1 box-in-site">
+				<h3 class="title-box">Related Products</h3>
+				<div class="wrap-products">
+					<div class="products slide-carousel owl-carousel style-nav-1 equal-container" data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"3"},"1200":{"items":"5"}}'>
+						@{
+							var list_relative_product = RalativeProducts(Convert.ToInt32(Model.Id));
+						}
+						@foreach (ItemProduct item in list_relative_product)
+						{
+							<div class="product product-style-2 equal-elem ">
+								<div class="product-thumnail">
+									<a href="/Products/Detail/@item.Id" title="@item.Name">
+										<figure><img src="~/Upload/Products/@item.Photo" width="214" height="214" alt="@item.Name"></figure>
+									</a>
+									<div class="group-flash">
+										<span class="flash-item new-label">new</span>
+									</div>
+									<div class="wrap-btn">
+										<a href="/Products/Detail/@item.Id" class="function-link">quick view</a>
+									</div>
+								</div>
+								<div class="product-info">
+									<a href="/Products/Detail/@item.Id" class="product-name"><span>@item.Name</span></a>
+									<div class="wrap-price"><span class="product-price">$@item.Price</span></div>
+								</div>
+							</div>
+						}
+
+
+					</div>
+				</div><!--End wrap-products-->
+			</div>
+		</div>
+
+	</div><!--end row-->
+</div>

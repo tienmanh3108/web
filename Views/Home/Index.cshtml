@@ -1,0 +1,307 @@
+﻿@{
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+@using project.Models
+@functions {
+    public MyDbContext db = new MyDbContext();
+    //sản phẩm giảm giá -> Discount > 0
+    public List<ItemProduct> DisCountProducts()
+    {
+        List<ItemProduct> list_record = db.Products.Where(item => item.Discount > 0).Skip(0).Take(8).OrderByDescending(item => item.Id).ToList();
+        return list_record;
+    }
+    //sản phẩm nổi bật -> Hot = 1
+    public List<ItemProduct> HotProducts()
+    {
+        List<ItemProduct> list_record = db.Products.Where(item => item.Hot == 1).Skip(0).Take(8).OrderByDescending(item => item.Id).ToList();
+        return list_record;
+    }
+    //liệt kê các danh mục hiển thị ở trang  chủ -> DisplayHomePage = 1(table Products)
+    public List<ItemCategory> Categories()
+    {
+        List<ItemCategory> list_record = db.Categories.Where(item => item.DisplayHomePage == 1).OrderByDescending(item => item.Id).ToList();
+        return list_record;
+    }
+    //mỗi danh mục liệt kê 8 sản phẩm nổi bật
+    public List<ItemProduct> Products(int _CategoryId)
+    {
+        List<ItemProduct> list_record = (from item_category in db.Categories join item_category_product in db.CategoriesProducts on item_category.Id equals item_category_product.CategoryId join item_product in db.Products on item_category_product.ProductId equals item_product.Id where item_category.Id == _CategoryId select item_product).Skip(0).Take(8).ToList();
+        return list_record;
+    }
+    //tin tức nổi bật -> Hot == 1 (table Products)
+    public List<ItemNews> HotNews()
+    {
+        List<ItemNews> list_record = db.News.Where(item => item.Hot == 1).Skip(0).Take(8).OrderByDescending(item => item.Id).ToList();
+        return list_record;
+    }
+}
+<div class="container">
+
+    <!--MAIN SLIDE-->
+    <div class="wrap-main-slide">
+        <div class="slide-carousel owl-carousel style-nav-1" data-items="1" data-loop="1" data-nav="true" data-dots="false">
+            <div class="item-slide">
+                <img src="~/Frontend/images/main-slider-1-1.jpg" alt="" class="img-slide">
+                <div class="slide-info slide-1">
+                    <h2 class="f-title">Kid Smart <b>Watches</b></h2>
+                    <span class="subtitle">Compra todos tus productos Smart por internet.</span>
+                    <p class="sale-info">Only price: <span class="price">$59.99</span></p>
+                    <a href="#" class="btn-link">Shop Now</a>
+                </div>
+            </div>
+            <div class="item-slide">
+                <img src="~/Frontend/images/main-slider-1-2.jpg" alt="" class="img-slide">
+                <div class="slide-info slide-2">
+                    <h2 class="f-title">Extra 25% Off</h2>
+                    <span class="f-subtitle">On online payments</span>
+                    <p class="discount-code">Use Code: #FA6868</p>
+                    <h4 class="s-title">Get Free</h4>
+                    <p class="s-subtitle">TRansparent Bra Straps</p>
+                </div>
+            </div>
+            <div class="item-slide">
+                <img src="~/Frontend/images/main-slider-1-3.jpg" alt="" class="img-slide">
+                <div class="slide-info slide-3">
+                    <h2 class="f-title">Great Range of <b>Exclusive Furniture Packages</b></h2>
+                    <span class="f-subtitle">Exclusive Furniture Packages to Suit every need.</span>
+                    <p class="sale-info">Stating at: <b class="price">$225.00</b></p>
+                    <a href="#" class="btn-link">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--BANNER-->
+    <div class="wrap-banner style-twin-default">
+        <div class="banner-item">
+            <a href="#" class="link-banner banner-effect-1">
+                <figure><img src="~/Frontend/images/home-1-banner-1.jpg" alt="" width="580" height="190"></figure>
+            </a>
+        </div>
+        <div class="banner-item">
+            <a href="#" class="link-banner banner-effect-1">
+                <figure><img src="~/Frontend/images/home-1-banner-2.jpg" alt="" width="580" height="190"></figure>
+            </a>
+        </div>
+    </div>
+
+    <!--On Sale-->
+    <div class="wrap-show-advance-info-box style-1 has-countdown">
+        <h3 class="title-box">Sản phẩm giảm giá</h3>
+        <div class="wrap-products slide-carousel owl-carousel style-nav-1 equal-container " data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"4"},"1200":{"items":"5"}}'>
+            @{
+        //sản phẩm giảm giá
+        var discount_products = DisCountProducts();
+            }
+            @foreach (var item in discount_products)
+            {
+            <div class="product product-style-2 equal-elem ">
+                <div class="product-thumnail">
+                    <a href="/Products/Detail/@item.Id" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                        <figure><img src="~/Upload/Products/@item.Photo" width="800" height="800" alt="@item.Name"></figure>
+                    </a>
+                    <div class="group-flash">
+                        <span class="flash-item sale-label">@item.Discount</span>
+                    </div>
+                    <div class="wrap-btn">
+                        <a href="/Cart/Buy/@item.Id" class="function-link">Add to cart</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <a href="/Products/Detail/@item.Id" class="product-name"><span>@item.Name</span></a>
+                    <div class="wrap-price">
+                        <span class="product-price">
+                            $@item.Price
+                        </span>
+                    </div>
+                    <!-- rating -->
+                    <div class="wrap-price">
+                        <div class="product-price">
+                            <a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                            <a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                            <a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                            <a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                            <a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                        </div>
+                    </div>
+                    <!-- /rating -->
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+
+    <!--Latest Products-->
+    <div class="wrap-show-advance-info-box style-1">
+        <h3 class="title-box">Sản phẩm nổi bật</h3>
+        <div class="wrap-top-banner">
+            <a href="#" class="link-banner banner-effect-2">
+                <figure><img src="~/Frontend/images/digital-electronic-banner.jpg" width="1170" height="240" alt=""></figure>
+            </a>
+        </div>
+        <div class="wrap-products">
+            <div class="wrap-product-tab tab-style-1">
+                <div class="tab-contents">
+                    <div class="tab-content-item active" id="digital_1a">
+                        <div class="wrap-products slide-carousel owl-carousel style-nav-1 equal-container" data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"4"},"1200":{"items":"5"}}'>
+
+                            @{
+    //sản phẩm nổi bật
+    var hot_products = HotProducts();
+                            }
+                            @foreach (var item in hot_products)
+                                            {
+                            <div class="product product-style-2 equal-elem ">
+                                <div class="product-thumnail">
+                                    <a href="/Products/Detail/@item.Id" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="~/Upload/Products/@item.Photo" width="800" height="800" alt="@item.Name"></figure>
+                                    </a>
+                                    <div class="group-flash">
+                                        <span class="flash-item sale-label">@item.Discount</span>
+                                    </div>
+                                    <div class="wrap-btn">
+                                        <a href="/Cart/Buy/@item.Id" class="function-link">Add to cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <a href="/Products/Detail/@item.Id" class="product-name"><span>@item.Name</span></a>
+                                    <div class="wrap-price">
+                                        <span class="product-price">
+                                            $@item.Price
+                                        </span>
+                                    </div>
+                                    <!-- rating -->
+                                    <div class="wrap-price">
+                                        <div class="product-price">
+                                            <a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- /rating -->
+                                </div>
+                            </div>
+                                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Product Categories-->
+    <div class="wrap-show-advance-info-box style-1">
+        <h3 class="title-box">Sản phẩm theo danh mục</h3>
+        <div class="wrap-top-banner">
+            <a href="#" class="link-banner banner-effect-2">
+                <figure><img src="~/Frontend/images/fashion-accesories-banner.jpg" width="1170" height="240" alt=""></figure>
+            </a>
+        </div>
+        <div class="wrap-products">
+            @{
+// lấy các danh mục hiển thị ở trang chủ => DisplayHomePage == 1 (table Categories)
+var list_categories = Categories();
+            }
+            @foreach (var itemCategory in list_categories)
+{
+            <div class="wrap-product-tab tab-style-1">
+                <div class="tab-control">
+                    <a href="/Products/Categories/@itemCategory.Id" class="tab-control-item active" style="font-weight: bold; color:red;">@itemCategory.Name</a>
+                </div>
+                <div class="tab-contents">
+
+                    <div class="tab-content-item active" id="fashion_1a">
+                        <div class="wrap-products slide-carousel owl-carousel style-nav-1 equal-container" data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"4"},"1200":{"items":"5"}}'>
+
+                            @{
+    //sản phẩm giảm giá
+    var products = Products(itemCategory.Id);
+                            }
+                            @foreach (var item in discount_products)
+    {
+                            <div class="product product-style-2 equal-elem ">
+                                <div class="product-thumnail">
+                                    <a href="/Products/Detail/@item.Id" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="~/Upload/Products/@item.Photo" width="800" height="800" alt="@item.Name"></figure>
+                                    </a>
+                                    <div class="group-flash">
+                                        <span class="flash-item sale-label">@item.Discount</span>
+                                    </div>
+                                    <div class="wrap-btn">
+                                        <a href="/Cart/Buy/@item.Id" class="function-link">Add to cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <a href="/Products/Detail/@item.Id" class="product-name"><span>@item.Name</span></a>
+                                    <div class="wrap-price">
+                                        <span class="product-price">
+                                            $@item.Price
+                                        </span>
+                                    </div>
+                                    <!-- rating -->
+                                    <div class="wrap-price">
+                                        <div class="product-price">
+                                            <a href="/Products/Rating/@item.Id?star=1" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=2" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=3" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=4" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                            <a href="/Products/Rating/@item.Id?star=5" style="margin-right: 3px;"><i class="fa fa-star" style="color:#efce4a;"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- /rating -->
+                                </div>
+                            </div>
+    }
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+}
+            <!-- category -->
+            <!-- /category -->
+        </div>
+    </div>
+
+    <!-- news -->
+    <div class="row" style="margin-bottom: 30px; margin-top: 20px;">
+        <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="title-box" style="background:#ff2832; color:white; padding:10px;">Tin nổi bật</h4>
+            <div class="our-staff">
+                <div class="slide-carousel owl-carousel style-nav-1 equal-container"
+                     data-items="5"
+                     data-loop="false"
+                     data-nav="true"
+                     data-dots="false"
+                     data-margin="30"
+                     data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"3"},"1200":{"items":"4"}}'>
+                    @{
+var hot_news = HotNews();
+                    }
+                    @foreach (var item in hot_news)
+{
+                    <div class="team-member equal-elem">
+                        <div class="media">
+                            <a href="News/Detail/@item.Id">
+                                <figure><img src="~/Upload/News/@item.Photo" style="max-height: 80px;"></figure>
+                            </a>
+                        </div>
+                        <div class="info" style="height: 190px; overflow: hidden;">
+                            <div style="font-weight: bold; margin-top: 10px; margin-bottom: 5px;"><a href="/News/Detail/@item.Id">@item.Name</a></div>
+                            <p class="desc">@Html.Raw(item.Description)</p>
+                        </div>
+                    </div>
+}
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /news -->
+
+</div>

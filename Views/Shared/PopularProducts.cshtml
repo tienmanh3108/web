@@ -1,0 +1,36 @@
+﻿@using project.Models
+@functions {
+	public MyDbContext db = new MyDbContext();
+	//lay cac san pham moi nhat
+	public List<ItemProduct> PopularProducts()
+	{
+		var list_record = db.Products.OrderByDescending(item => item.Id).Skip(0).Take(5).ToList();
+		return list_record;
+	}
+}
+<div class="widget mercado-widget widget-product">
+	<h2 class="widget-title">Popular Products</h2>
+	<div class="widget-content">
+		<ul class="products">
+			@{
+				var list_products = PopularProducts();
+			}
+			@foreach (var item in list_products)
+			{
+				<li class="product-item">
+					<div class="product product-widget-style">
+						<div class="thumbnnail">
+							<a href="/Products/Detail/@item.Id" title="@item.Name">
+								<figure><img src="~/Upload/Products/@item.Photo" alt=""></figure>
+							</a>
+						</div>
+						<div class="product-info">
+							<a href="/Products/Detail/@item.Id" class="product-name"><span>@item.Name</span></a>
+							<div class="wrap-price"><span class="product-price">$@item.Price</span></div>
+						</div>
+					</div>
+				</li>
+			}
+		</ul>
+	</div>
+</div>

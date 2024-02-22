@@ -1,0 +1,1257 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\css\\AdminLTE.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\AdminLTE.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\css\\_all-skins.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\_all-skins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Admin\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\images\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\user2-160x160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Admin\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\Frontend\\css\\chosen-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\Frontend\\css\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\chosen.min.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\chosen.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\color-01.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\color-01.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\color-02.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\color-02.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\color-03.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\color-03.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\Frontend\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\css\\style.css",
+      "PackagePath": "staticwebassets\\Frontend\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\Flaticond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\flexslider-icond41d.eot",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\flexslider-icond41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\glyphicons-halflings-regular-2.html",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\glyphicons-halflings-regular-2.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\glyphicons-halflings-regular-3.html",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\glyphicons-halflings-regular-3.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\glyphicons-halflings-regular-4.html",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\glyphicons-halflings-regular-4.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\glyphicons-halflings-regular-5.html",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\glyphicons-halflings-regular-5.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\glyphicons-halflings-regular.html",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\glyphicons-halflings-regular.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\fonts\\glyphicons-halflings-regulard41d.html",
+      "PackagePath": "staticwebassets\\Frontend\\fonts\\glyphicons-halflings-regulard41d.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-carpenter-tools-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-carpenter-tools-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-carpenter-tools-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-carpenter-tools-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-fashion-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-fashion-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-fashion-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-fashion-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-kindtoy-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-kindtoy-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-kindtoy-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-kindtoy-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-mega_accessories_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-mega_accessories_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-mega_accessories_2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-mega_accessories_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-megamenu_digital_electronics_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-megamenu_digital_electronics_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-megamenu_furniture_home_decors_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-megamenu_furniture_home_decors_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-megamenu_kid_toy_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-megamenu_kid_toy_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-megamenu_tool_equiment_banner_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-megamenu_tool_equiment_banner_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-megamenu_tool_equiment_banner_2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-megamenu_tool_equiment_banner_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-smartphone-laptop-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-smartphone-laptop-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-smartphone-laptop-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-smartphone-laptop-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-spa-organic-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-spa-organic-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\2-spa-organic-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\2-spa-organic-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\3-carpenter-tools-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\3-carpenter-tools-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\3-digital-electronic-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\3-digital-electronic-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\3-fashion-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\3-fashion-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\3-furniture-and-home-decors-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\3-furniture-and-home-decors-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\3-slide-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\3-slide-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\3-slide-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\3-slide-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\about-us-bg-page-title.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\about-us-bg-page-title.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\author-avata.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\author-avata.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\banner-shop-full-width.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\banner-shop-full-width.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\banner-top.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\banner-top.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\blogs\\blog-article-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\blogs\\blog-article-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\blogs\\blog-article-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\blogs\\blog-article-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\blogs\\blog-article-3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\blogs\\blog-article-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\blogs\\blog-article-4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\blogs\\blog-article-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\blogs\\blog-article-5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\blogs\\blog-article-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\american-express.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\american-express.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\apple-store.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\apple-store.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\audiojungle.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\audiojungle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\codecanyon.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\codecanyon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\discover.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\discover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\google-play-store.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\google-play-store.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\graphicriver.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\graphicriver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\master-card.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\master-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\paypal.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\paypal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\photodune.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\photodune.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\themeforest.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\themeforest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\brands\\visa.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\brands\\visa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\date-label.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\date-label.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\digital-electronic-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\digital-electronic-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\effects\\2eSd.gif",
+      "PackagePath": "staticwebassets\\Frontend\\images\\effects\\2eSd.gif"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\fashion-accesories-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\fashion-accesories-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Frontend\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\furniture-and-home-decors-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\furniture-and-home-decors-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\home-1-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\home-1-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\home-1-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\home-1-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\home-2-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\home-2-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\home-2-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\home-2-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\home-2-banner-3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\home-2-banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\home-3-banner-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\home-3-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\home-3-banner-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\home-3-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\kids-toy-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\kids-toy-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\lang-can.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\lang-can.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\lang-en.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\lang-en.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\lang-fra.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\lang-fra.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\lang-ger.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\lang-ger.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\lang-hun.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\lang-hun.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\logo-top-1.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\logo-top-1.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\logo-top-2.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\logo-top-2.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-1-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-1-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-1-3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-2-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-2-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-2-3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-2-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-3-1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-3-2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\main-slider-3-3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\main-slider-3-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\mega_accessories_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\mega_accessories_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\mega_accessories_2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\mega_accessories_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\mega_accessories_3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\mega_accessories_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\mega_accessories_pr1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\mega_accessories_pr1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\megamenu_digital_electronics_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\megamenu_digital_electronics_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\megamenu_furniture_home_decors_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\megamenu_furniture_home_decors_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\megamenu_kid_toy_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\megamenu_kid_toy_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\megamenu_tool_equiment_banner_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\megamenu_tool_equiment_banner_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\megamenu_tool_equiment_banner_2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\megamenu_tool_equiment_banner_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\member-braum.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\member-braum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\member-leona.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\member-leona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\member-lucia.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\member-lucia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\member-nana.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\member-nana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\payment.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_01.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_02.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_03.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_04.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_05.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_06.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_07.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_08.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_09.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_10.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_11.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_12.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_13.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_14.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_15.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_16.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_17.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_18.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_19.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_20.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_21.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\digital_22.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\digital_22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_01.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_02.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_03.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_04.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_05.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_06.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_07.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_08.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_09.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\fashion_10.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\fashion_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_01.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_02.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_03.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_04.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_05.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_06.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_07.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_08.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\furniture_09.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\furniture_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_01.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_02.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_03.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_04.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_05.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_06.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_07.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_08.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_09.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\kidtoy_10.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\kidtoy_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_6.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_7.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\organics_spa_8.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\organics_spa_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_1.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_2.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_3.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_4.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_5.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_6.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_7.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\products\\tools_equipment_8.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\products\\tools_equipment_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\shop-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\shop-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\size-banner-widget.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\size-banner-widget.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\social-list.png",
+      "PackagePath": "staticwebassets\\Frontend\\images\\social-list.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\spa-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\spa-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\images\\tool-banner.jpg",
+      "PackagePath": "staticwebassets\\Frontend\\images\\tool-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\functions.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\functions.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\jquery-1.12.4.minb8ff.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\jquery-1.12.4.minb8ff.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\jquery-ui-1.12.4.minb8ff.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\jquery-ui-1.12.4.minb8ff.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\jquery.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Frontend\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Frontend\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\News\\133345056547623412_bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345056547623412_bruce-mars.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\News\\133345059984365253_drake.jpg",
+      "PackagePath": "staticwebassets\\Upload\\News\\133345059984365253_drake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347667385402739_kidtoy_01.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347667385402739_kidtoy_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347667545847807_kidtoy_02.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347667545847807_kidtoy_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347667643118279_kidtoy_03.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347667643118279_kidtoy_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347667728816445_kidtoy_04.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347667728816445_kidtoy_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347667845909776_kidtoy_07.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347667845909776_kidtoy_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347667984568759_organics_spa_2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347667984568759_organics_spa_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347668080706638_kidtoy_08.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347668080706638_kidtoy_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347668166077049_tools_equipment_2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347668166077049_tools_equipment_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\Upload\\Products\\133347668268884956_tools_equipment_6.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Products\\133347668268884956_tools_equipment_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\ckeditor.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\ckeditor.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\sample\\css\\sample.css",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\css\\sample.css"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\sample\\img\\bg.png",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\sample\\img\\github.svg",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\sample\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\es-co.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\jv.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\ur.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\tienm\\OneDrive\\Máy tính\\.net devpro\\Pr0ject\\project\\wwwroot\\ckeditor5-build-classic\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor5-build-classic\\translations\\zh.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.project.props",
+      "PackagePath": "build\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.project.props",
+      "PackagePath": "buildMultiTargeting\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.project.props",
+      "PackagePath": "buildTransitive\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
