@@ -1250,3 +1250,4 @@ C:\Users\tienm\OneDrive\Máy tính\.net devpro\Pr0ject\project\obj\Debug\net7.0\
 C:\Users\tienm\OneDrive\Máy tính\.net devpro\Pr0ject\project\obj\Debug\net7.0\project.pdb
 C:\Users\tienm\OneDrive\Máy tính\.net devpro\Pr0ject\project\obj\Debug\net7.0\project.genruntimeconfig.cache
 C:\Users\tienm\OneDrive\Máy tính\.net devpro\Pr0ject\project\obj\Debug\net7.0\ref\project.dll
+C:\Users\tienm\OneDrive\Máy tính\.net devpro\Pr0ject\project\obj\Debug\net7.0\project.sourcelink.json
